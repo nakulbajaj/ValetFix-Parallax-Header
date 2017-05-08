@@ -51,7 +51,6 @@ class InviteTableViewController: UITableViewController, APParallaxViewDelegate {
         self.tableView.addParallax(with: parallaxView, andHeight: UIScreen.main.bounds.height/6)
         self.tableView.parallaxView.delegate = self //Set delegate
         
-        
     }
     
     

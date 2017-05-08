@@ -7,4 +7,5 @@ target 'ValetFix Parallax Header' do
 
   # Pods for ValetFix Parallax Header
 	pod 'APParallaxHeader'
+	pod 'EPContactsPicker'
 end

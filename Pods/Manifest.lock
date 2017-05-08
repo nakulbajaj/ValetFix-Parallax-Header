@@ -1,12 +1,15 @@
 PODS:
   - APParallaxHeader (0.1.6)
+  - EPContactsPicker (2.0.1)
 
 DEPENDENCIES:
   - APParallaxHeader
+  - EPContactsPicker
 
 SPEC CHECKSUMS:
   APParallaxHeader: 854bc48a2487ca12c702f8a236fec0d89cdac5c3
+  EPContactsPicker: 6f91fc9d5e585480cc169ab27d97b392c79f95d2
 
-PODFILE CHECKSUM: 021cbebe896f44adf87e5910cc003c0654eeeab2
+PODFILE CHECKSUM: 10e275f1c6c11ac6df19bd991582faed5aafccff
 
 COCOAPODS: 1.2.1
