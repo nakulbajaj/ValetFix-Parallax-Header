@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1277C6B399D9B6383D0A684 /* Pods_ValetFix_Parallax_Header.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5024F0D4ED57261FF2888584 /* Pods_ValetFix_Parallax_Header.framework */; };
+		F43200A91EC0348C003F2F8B /* InviteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43200A81EC0348C003F2F8B /* InviteTableViewController.swift */; };
+		F4ADF6CC1EC0323000284D9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADF6CB1EC0323000284D9A /* AppDelegate.swift */; };
+		F4ADF6D31EC0323000284D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4ADF6D21EC0323000284D9A /* Assets.xcassets */; };
+		F4ADF6D61EC0323000284D9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4ADF6D41EC0323000284D9A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FA498DAFE82D816FC712F0B /* Pods-ValetFix Parallax Header.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValetFix Parallax Header.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ValetFix Parallax Header/Pods-ValetFix Parallax Header.debug.xcconfig"; sourceTree = "<group>"; };
+		5024F0D4ED57261FF2888584 /* Pods_ValetFix_Parallax_Header.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValetFix_Parallax_Header.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		683DF2ED47340A593C37019F /* Pods-ValetFix Parallax Header.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValetFix Parallax Header.release.xcconfig"; path = "Pods/Target Support Files/Pods-ValetFix Parallax Header/Pods-ValetFix Parallax Header.release.xcconfig"; sourceTree = "<group>"; };
+		F43200A81EC0348C003F2F8B /* InviteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteTableViewController.swift; sourceTree = "<group>"; };
+		F4ADF6C81EC0323000284D9A /* ValetFix Parallax Header.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ValetFix Parallax Header.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4ADF6CB1EC0323000284D9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4ADF6D21EC0323000284D9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4ADF6D51EC0323000284D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4ADF6D71EC0323000284D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4ADF6C51EC0323000284D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1277C6B399D9B6383D0A684 /* Pods_ValetFix_Parallax_Header.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0606FA601DAF9EC7B1BD2B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5024F0D4ED57261FF2888584 /* Pods_ValetFix_Parallax_Header.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A60A32AAEF6CDDC05A539335 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FA498DAFE82D816FC712F0B /* Pods-ValetFix Parallax Header.debug.xcconfig */,
+				683DF2ED47340A593C37019F /* Pods-ValetFix Parallax Header.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4ADF6BF1EC0323000284D9A = {
+			isa = PBXGroup;
+			children = (
+				F4ADF6CA1EC0323000284D9A /* ValetFix Parallax Header */,
+				F4ADF6C91EC0323000284D9A /* Products */,
+				A60A32AAEF6CDDC05A539335 /* Pods */,
+				A0606FA601DAF9EC7B1BD2B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4ADF6C91EC0323000284D9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4ADF6C81EC0323000284D9A /* ValetFix Parallax Header.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4ADF6CA1EC0323000284D9A /* ValetFix Parallax Header */ = {
+			isa = PBXGroup;
+			children = (
+				F4ADF6CB1EC0323000284D9A /* AppDelegate.swift */,
+				F43200A81EC0348C003F2F8B /* InviteTableViewController.swift */,
+				F4ADF6D21EC0323000284D9A /* Assets.xcassets */,
+				F4ADF6D41EC0323000284D9A /* LaunchScreen.storyboard */,
+				F4ADF6D71EC0323000284D9A /* Info.plist */,
+			);
+			path = "ValetFix Parallax Header";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4ADF6C71EC0323000284D9A /* ValetFix Parallax Header */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4ADF6DA1EC0323000284D9A /* Build configuration list for PBXNativeTarget "ValetFix Parallax Header" */;
+			buildPhases = (
+				CB9EBFD6E701E86766DF9E91 /* [CP] Check Pods Manifest.lock */,
+				F4ADF6C41EC0323000284D9A /* Sources */,
+				F4ADF6C51EC0323000284D9A /* Frameworks */,
+				F4ADF6C61EC0323000284D9A /* Resources */,
+				EF7E3DC0B0BD953C4B097116 /* [CP] Embed Pods Frameworks */,
+				D1E4D353B6C370A4A83D239C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ValetFix Parallax Header";
+			productName = "ValetFix Parallax Header";
+			productReference = F4ADF6C81EC0323000284D9A /* ValetFix Parallax Header.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4ADF6C01EC0323000284D9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = nakulbajaj;
+				TargetAttributes = {
+					F4ADF6C71EC0323000284D9A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 45WG29SXF4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F4ADF6C31EC0323000284D9A /* Build configuration list for PBXProject "ValetFix Parallax Header" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4ADF6BF1EC0323000284D9A;
+			productRefGroup = F4ADF6C91EC0323000284D9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4ADF6C71EC0323000284D9A /* ValetFix Parallax Header */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4ADF6C61EC0323000284D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ADF6D61EC0323000284D9A /* LaunchScreen.storyboard in Resources */,
+				F4ADF6D31EC0323000284D9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB9EBFD6E701E86766DF9E91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1E4D353B6C370A4A83D239C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ValetFix Parallax Header/Pods-ValetFix Parallax Header-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7E3DC0B0BD953C4B097116 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ValetFix Parallax Header/Pods-ValetFix Parallax Header-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4ADF6C41EC0323000284D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43200A91EC0348C003F2F8B /* InviteTableViewController.swift in Sources */,
+				F4ADF6CC1EC0323000284D9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4ADF6D41EC0323000284D9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4ADF6D51EC0323000284D9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4ADF6D81EC0323000284D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4ADF6D91EC0323000284D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4ADF6DB1EC0323000284D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA498DAFE82D816FC712F0B /* Pods-ValetFix Parallax Header.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45WG29SXF4;
+				INFOPLIST_FILE = "ValetFix Parallax Header/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nakulbajaj.ValetFix-Parallax-Header";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F4ADF6DC1EC0323000284D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683DF2ED47340A593C37019F /* Pods-ValetFix Parallax Header.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45WG29SXF4;
+				INFOPLIST_FILE = "ValetFix Parallax Header/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nakulbajaj.ValetFix-Parallax-Header";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4ADF6C31EC0323000284D9A /* Build configuration list for PBXProject "ValetFix Parallax Header" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4ADF6D81EC0323000284D9A /* Debug */,
+				F4ADF6D91EC0323000284D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4ADF6DA1EC0323000284D9A /* Build configuration list for PBXNativeTarget "ValetFix Parallax Header" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4ADF6DB1EC0323000284D9A /* Debug */,
+				F4ADF6DC1EC0323000284D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4ADF6C01EC0323000284D9A /* Project object */;
+}

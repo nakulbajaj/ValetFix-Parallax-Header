@@ -1,0 +1,6 @@
+framework module Pods_ValetFix_Parallax_Header {
+  umbrella header "Pods-ValetFix Parallax Header-umbrella.h"
+
+  export *
+  module * { export * }
+}
