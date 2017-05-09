@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>EPContactsPicker-EPContactsPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>EPContactsPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ValetFix Parallax Header.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,7 +32,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4F47FA41E90E6CF1B4B6DF124B0B9123</key>
+		<key>1ED7210FC5C9C6ADCEB3CDAD87B99D60</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9B49654B82B0313D988195D5587273EF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BAABC759868DCE578A9958C51FBF9084</key>
 		<dict>
 			<key>primary</key>
 			<true/>

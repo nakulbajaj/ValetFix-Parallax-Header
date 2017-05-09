@@ -7,54 +7,123 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04A5AC35140CBE819A87E83AC97286B9 /* UIScrollView+APParallaxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 13285D75230612C8A38BEF492BDDE647 /* UIScrollView+APParallaxHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		149C05657E44D79AE210DD1FEF1AD0DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		1526D3FD9D89880E754EFB05BAE12BF8 /* Pods-ValetFix Parallax Header-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB564C04A427AAF74F8124C3E8A353C /* Pods-ValetFix Parallax Header-dummy.m */; };
-		32CF8652B7AACF4F891FE8133C05EDA3 /* Pods-ValetFix Parallax Header-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB65301FE336393F3B039722C195EDD9 /* Pods-ValetFix Parallax Header-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D691F70E9F578728B82F18A9FBE63E2 /* APParallaxHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0E51DB68611DE624122FB985DC5171 /* APParallaxHeader-dummy.m */; };
-		6419335D70EC2F6B0A766C9AD2A5C5B0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
-		69D8578E3EFE98C060AFE0E34E14C9A0 /* APParallaxHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A6A6C314C5A478E87168C07F7D39ED7 /* APParallaxHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0A05F9B05E23CE38018365D3140D71C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		E3A33ADB994E40DD88217DED5B981A5B /* UIScrollView+APParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E04A30D938F6A60B69AA64C590DE0642 /* UIScrollView+APParallaxHeader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		04A5AC35140CBE819A87E83AC97286B9 /* UIScrollView+APParallaxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 11156C0CB8B068BEAF36F1BF3DAE7D13 /* UIScrollView+APParallaxHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04D8B64F91CE775B601BE97D70F835C1 /* EPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210F617FC59751E36B0F904993A372EE /* EPContactCell.xib */; };
+		07CC390E21B7C386A3D336E584B21659 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139275C3789CC13BE1DF4EFA68CC5F29 /* Foundation.framework */; };
+		32849C80D8C715FE96B7BA5F6DE37F43 /* EPContactsPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0030D14A2A7CA00BB266CD5AE790668A /* EPContactsPicker-dummy.m */; };
+		32AAE86F0D30C7E4BD0312994F23EFF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139275C3789CC13BE1DF4EFA68CC5F29 /* Foundation.framework */; };
+		4D691F70E9F578728B82F18A9FBE63E2 /* APParallaxHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD0424680249A152FAEAF50893F97D9 /* APParallaxHeader-dummy.m */; };
+		6419335D70EC2F6B0A766C9AD2A5C5B0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90F13566DEE86859B7B8849DAC02FAE /* QuartzCore.framework */; };
+		69D8578E3EFE98C060AFE0E34E14C9A0 /* APParallaxHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C551A21D2CC9B0987791087D7051AF5 /* APParallaxHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E01EB8AAAA87A93ECF203D4A761BD89 /* EPContactsPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 172286DD51A49E3645F12BADB1485B12 /* EPContactsPicker.bundle */; };
+		7C1B5FD79400C7BCF716D05F0A3C84E3 /* EPContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F700DB87E5510B254F1693E92A84291E /* EPContact.swift */; };
+		89049EFC0398CC0F7AA30C5A3B9A0E13 /* Pods-ValetFix Parallax Header-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB65301FE336393F3B039722C195EDD9 /* Pods-ValetFix Parallax Header-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A70728CDA14F12BD0EE825C88C768F6 /* EPContactsPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 423B0B545FE07BD11E022D0659CC1C8F /* EPContactsPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CEFB1A260DE70914876CA6FE778C618 /* EPContactsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC921A4735AB7C1AA665F5F373178A /* EPContactsPicker.swift */; };
+		993057D7167B5B2E6CADC3D686B072A2 /* EPContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BD0A8644377D8BBBAD30A381732FA /* EPContactCell.swift */; };
+		C36D91E2F8EA946B0D74005985C049ED /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1FAA68697474DD5290B50C537E2B06 /* Contacts.framework */; };
+		CD93D728FA3273BAC4D479EAD3B824D3 /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11390B1C948CDBF3EBCEC1921001F1F9 /* EPExtensions.swift */; };
+		CED6FA3DB2A2C615E34FEA3FB05B9BE2 /* Pods-ValetFix Parallax Header-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB564C04A427AAF74F8124C3E8A353C /* Pods-ValetFix Parallax Header-dummy.m */; };
+		D0A05F9B05E23CE38018365D3140D71C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139275C3789CC13BE1DF4EFA68CC5F29 /* Foundation.framework */; };
+		D1CE7D568DDA80A9450876967DE426C3 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660D21A4605CA480FD86448047BC140A /* ContactsUI.framework */; };
+		DA0098F163A0EC0741B022D2FC0D60FA /* EPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210F617FC59751E36B0F904993A372EE /* EPContactCell.xib */; };
+		E3A33ADB994E40DD88217DED5B981A5B /* UIScrollView+APParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEA2CB38B1EB33F3FEF77BF572CCDA2 /* UIScrollView+APParallaxHeader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E8C1B354AC6AF241578B38DE8C5D15AC /* EPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622844C8DEF3D6082665FE126FBD893B /* EPConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5A4396CA7643C692407AE81DF3614CDB /* PBXContainerItemProxy */ = {
+		85844CE468F7F0EC1CBE5829BCECF0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ED7210FC5C9C6ADCEB3CDAD87B99D60;
+			remoteInfo = "EPContactsPicker-EPContactsPicker";
+		};
+		8C2C0F34FB78192A816F0151218B1723 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0E119F43B0B3E72C2C7435D5B5725E1A;
 			remoteInfo = APParallaxHeader;
 		};
+		8EAC4759BD8E92648503FD98E45B6BF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B49654B82B0313D988195D5587273EF;
+			remoteInfo = EPContactsPicker;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05B16DCB3234A5BD119E50116ABEDD23 /* APParallaxHeader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = APParallaxHeader.modulemap; sourceTree = "<group>"; };
+		0030D14A2A7CA00BB266CD5AE790668A /* EPContactsPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EPContactsPicker-dummy.m"; sourceTree = "<group>"; };
+		0F1FAA68697474DD5290B50C537E2B06 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = DEVELOPER_DIR; };
 		110D98117774ED68E6BEB009CF4EFD3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13285D75230612C8A38BEF492BDDE647 /* UIScrollView+APParallaxHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+APParallaxHeader.h"; path = "APParallaxHeader/UIScrollView+APParallaxHeader.h"; sourceTree = "<group>"; };
+		11156C0CB8B068BEAF36F1BF3DAE7D13 /* UIScrollView+APParallaxHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+APParallaxHeader.h"; path = "APParallaxHeader/UIScrollView+APParallaxHeader.h"; sourceTree = "<group>"; };
+		11390B1C948CDBF3EBCEC1921001F1F9 /* EPExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPExtensions.swift; path = Pods/EPExtensions.swift; sourceTree = "<group>"; };
+		139275C3789CC13BE1DF4EFA68CC5F29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		172286DD51A49E3645F12BADB1485B12 /* EPContactsPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EPContactsPicker.bundle; path = EPContactsPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		210F617FC59751E36B0F904993A372EE /* EPContactCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EPContactCell.xib; path = Pods/EPContactCell.xib; sourceTree = "<group>"; };
 		2473440F1D4EB8F23758B8E112A86853 /* Pods-ValetFix Parallax Header.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ValetFix Parallax Header.debug.xcconfig"; sourceTree = "<group>"; };
 		296163C8052F604D42F227AE51154795 /* Pods-ValetFix Parallax Header.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ValetFix Parallax Header.modulemap"; sourceTree = "<group>"; };
-		5004C9673556300A4209A33F11C3AB05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5E0E51DB68611DE624122FB985DC5171 /* APParallaxHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APParallaxHeader-dummy.m"; sourceTree = "<group>"; };
+		37FAFA139FFE7D3AC38C2395EFDE173B /* ResourceBundle-EPContactsPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EPContactsPicker-Info.plist"; sourceTree = "<group>"; };
+		3D18D19E216DF04D10C388082B4D4D2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423B0B545FE07BD11E022D0659CC1C8F /* EPContactsPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPContactsPicker-umbrella.h"; sourceTree = "<group>"; };
+		4FFC921A4735AB7C1AA665F5F373178A /* EPContactsPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPContactsPicker.swift; path = Pods/EPContactsPicker.swift; sourceTree = "<group>"; };
+		622844C8DEF3D6082665FE126FBD893B /* EPConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPConstants.swift; path = Pods/EPConstants.swift; sourceTree = "<group>"; };
+		660D21A4605CA480FD86448047BC140A /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ContactsUI.framework; sourceTree = DEVELOPER_DIR; };
 		6EED203990C3CE0524770C796AA6687C /* Pods-ValetFix Parallax Header-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ValetFix Parallax Header-resources.sh"; sourceTree = "<group>"; };
+		75F6F96198020F39AF2EC274F62E3790 /* EPContactsPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EPContactsPicker.xcconfig; sourceTree = "<group>"; };
 		776B0A33723F1D0E49C39C6481428E9D /* Pods-ValetFix Parallax Header-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ValetFix Parallax Header-acknowledgements.plist"; sourceTree = "<group>"; };
-		8A6A6C314C5A478E87168C07F7D39ED7 /* APParallaxHeader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APParallaxHeader-umbrella.h"; sourceTree = "<group>"; };
+		7E10C6DDFA7C4C77C6BDAEB130602F59 /* APParallaxHeader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = APParallaxHeader.modulemap; sourceTree = "<group>"; };
+		800C6DE1D6DAE520E426418C91CF3866 /* APParallaxHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APParallaxHeader.framework; path = APParallaxHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		874246EA89B096247AC44CEC3A92F39B /* EPContactsPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPContactsPicker-prefix.pch"; sourceTree = "<group>"; };
+		8C551A21D2CC9B0987791087D7051AF5 /* APParallaxHeader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APParallaxHeader-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A990CFA3B27D15FFD09236CAC3FF6CA1 /* APParallaxHeader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APParallaxHeader.xcconfig; sourceTree = "<group>"; };
-		C6E9EB9D72AA3C9C48C6859BB9E428EE /* Pods_ValetFix_Parallax_Header.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ValetFix_Parallax_Header.framework; path = "Pods-ValetFix Parallax Header.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCEBB4E668546469D7320729497A8CEE /* APParallaxHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APParallaxHeader.framework; path = APParallaxHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFDD5627FE2593BA770BA463375CBD5 /* EPContactsPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EPContactsPicker.framework; path = EPContactsPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEA2CB38B1EB33F3FEF77BF572CCDA2 /* UIScrollView+APParallaxHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+APParallaxHeader.m"; path = "APParallaxHeader/UIScrollView+APParallaxHeader.m"; sourceTree = "<group>"; };
+		BED7D064640B1EAB04AF9082C388D73A /* Pods_ValetFix_Parallax_Header.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ValetFix_Parallax_Header.framework; path = "Pods-ValetFix Parallax Header.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A53A41860BC046B7856FE26E69C14F /* APParallaxHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APParallaxHeader-prefix.pch"; sourceTree = "<group>"; };
+		C90F13566DEE86859B7B8849DAC02FAE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C98BD0A8644377D8BBBAD30A381732FA /* EPContactCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPContactCell.swift; path = Pods/EPContactCell.swift; sourceTree = "<group>"; };
 		D49F0F2FA154E019B54945CBE08D71E4 /* Pods-ValetFix Parallax Header.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ValetFix Parallax Header.release.xcconfig"; sourceTree = "<group>"; };
+		D51186ED2855EF3CC2C8D0B24D006DB6 /* APParallaxHeader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APParallaxHeader.xcconfig; sourceTree = "<group>"; };
 		DB65301FE336393F3B039722C195EDD9 /* Pods-ValetFix Parallax Header-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ValetFix Parallax Header-umbrella.h"; sourceTree = "<group>"; };
 		DCB564C04A427AAF74F8124C3E8A353C /* Pods-ValetFix Parallax Header-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ValetFix Parallax Header-dummy.m"; sourceTree = "<group>"; };
-		E04A30D938F6A60B69AA64C590DE0642 /* UIScrollView+APParallaxHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+APParallaxHeader.m"; path = "APParallaxHeader/UIScrollView+APParallaxHeader.m"; sourceTree = "<group>"; };
+		E0A409282E39F39C229973527044C6FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E61EEE81112FC81612C1023F187E2E0E /* Pods-ValetFix Parallax Header-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ValetFix Parallax Header-frameworks.sh"; sourceTree = "<group>"; };
-		F41A314D3C8C3A62F3F2385404CFDD69 /* APParallaxHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APParallaxHeader-prefix.pch"; sourceTree = "<group>"; };
-		FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		EAD0424680249A152FAEAF50893F97D9 /* APParallaxHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APParallaxHeader-dummy.m"; sourceTree = "<group>"; };
+		F23452DE9F50068B8D79DE49FBBA165A /* EPContactsPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EPContactsPicker.modulemap; sourceTree = "<group>"; };
+		F700DB87E5510B254F1693E92A84291E /* EPContact.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPContact.swift; path = Pods/EPContact.swift; sourceTree = "<group>"; };
 		FFD94D9263063F08A6AD4A50A0F7C108 /* Pods-ValetFix Parallax Header-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ValetFix Parallax Header-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		40AFABE5917A5AA39CD5932A31C0F10F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EC7CED97703F01AA05AD8313682ABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36D91E2F8EA946B0D74005985C049ED /* Contacts.framework in Frameworks */,
+				D1CE7D568DDA80A9450876967DE426C3 /* ContactsUI.framework in Frameworks */,
+				32AAE86F0D30C7E4BD0312994F23EFF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0F8BABA6EA6ED2120B5D23208C3686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CC390E21B7C386A3D336E584B21659 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6F0532F225083D6ED9B3F422C6963A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,43 +133,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D17A5047F26E6D243A87B2FAC2B8B48D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				149C05657E44D79AE210DD1FEF1AD0DD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C295577A2AB0356EDDE0B519C4F1147 /* Pods */ = {
+		00DE54D7040CF4F8EE15D8846E47D22C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C08D24B28F0A3F9B4CAFD0A601EF5221 /* APParallaxHeader */,
+				800C6DE1D6DAE520E426418C91CF3866 /* APParallaxHeader.framework */,
+				172286DD51A49E3645F12BADB1485B12 /* EPContactsPicker.bundle */,
+				AAFDD5627FE2593BA770BA463375CBD5 /* EPContactsPicker.framework */,
+				BED7D064640B1EAB04AF9082C388D73A /* Pods_ValetFix_Parallax_Header.framework */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		2A0F1B78DCAD93E15739067919C78CCA /* Support Files */ = {
+		02957AC8EB4C98EB9A994E053BB58D7C /* EPContactsPicker */ = {
 			isa = PBXGroup;
 			children = (
-				05B16DCB3234A5BD119E50116ABEDD23 /* APParallaxHeader.modulemap */,
-				A990CFA3B27D15FFD09236CAC3FF6CA1 /* APParallaxHeader.xcconfig */,
-				5E0E51DB68611DE624122FB985DC5171 /* APParallaxHeader-dummy.m */,
-				F41A314D3C8C3A62F3F2385404CFDD69 /* APParallaxHeader-prefix.pch */,
-				8A6A6C314C5A478E87168C07F7D39ED7 /* APParallaxHeader-umbrella.h */,
-				5004C9673556300A4209A33F11C3AB05 /* Info.plist */,
+				622844C8DEF3D6082665FE126FBD893B /* EPConstants.swift */,
+				F700DB87E5510B254F1693E92A84291E /* EPContact.swift */,
+				C98BD0A8644377D8BBBAD30A381732FA /* EPContactCell.swift */,
+				4FFC921A4735AB7C1AA665F5F373178A /* EPContactsPicker.swift */,
+				11390B1C948CDBF3EBCEC1921001F1F9 /* EPExtensions.swift */,
+				6F53CA7BCB0DCC0CADABBE841EE7C66C /* Resources */,
+				BB14CED428669E5485CFE0589C9554AC /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/APParallaxHeader";
+			name = EPContactsPicker;
+			path = EPContactsPicker;
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				978007DCB56F415BE390E0F949D4D4E5 /* iOS */,
+				806BC1159A9E9ACBB2CE998B20067B01 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,41 +196,80 @@
 			path = "Target Support Files/Pods-ValetFix Parallax Header";
 			sourceTree = "<group>";
 		};
+		6F53CA7BCB0DCC0CADABBE841EE7C66C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				210F617FC59751E36B0F904993A372EE /* EPContactCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				1C295577A2AB0356EDDE0B519C4F1147 /* Pods */,
-				A5C9DE3357E8F6407C2DFF30070969CA /* Products */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				C4587194D7D21CFE9503BA3849655712 /* Pods */,
+				00DE54D7040CF4F8EE15D8846E47D22C /* Products */,
 				58A8F1B5916F787FA5A25D8C0EC6D859 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		978007DCB56F415BE390E0F949D4D4E5 /* iOS */ = {
+		806BC1159A9E9ACBB2CE998B20067B01 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */,
-				FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */,
+				0F1FAA68697474DD5290B50C537E2B06 /* Contacts.framework */,
+				660D21A4605CA480FD86448047BC140A /* ContactsUI.framework */,
+				139275C3789CC13BE1DF4EFA68CC5F29 /* Foundation.framework */,
+				C90F13566DEE86859B7B8849DAC02FAE /* QuartzCore.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A5C9DE3357E8F6407C2DFF30070969CA /* Products */ = {
+		938B228972889186BB61A452BD4F579E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CCEBB4E668546469D7320729497A8CEE /* APParallaxHeader.framework */,
-				C6E9EB9D72AA3C9C48C6859BB9E428EE /* Pods_ValetFix_Parallax_Header.framework */,
+				7E10C6DDFA7C4C77C6BDAEB130602F59 /* APParallaxHeader.modulemap */,
+				D51186ED2855EF3CC2C8D0B24D006DB6 /* APParallaxHeader.xcconfig */,
+				EAD0424680249A152FAEAF50893F97D9 /* APParallaxHeader-dummy.m */,
+				C1A53A41860BC046B7856FE26E69C14F /* APParallaxHeader-prefix.pch */,
+				8C551A21D2CC9B0987791087D7051AF5 /* APParallaxHeader-umbrella.h */,
+				3D18D19E216DF04D10C388082B4D4D2F /* Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/APParallaxHeader";
 			sourceTree = "<group>";
 		};
-		C08D24B28F0A3F9B4CAFD0A601EF5221 /* APParallaxHeader */ = {
+		BB14CED428669E5485CFE0589C9554AC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				13285D75230612C8A38BEF492BDDE647 /* UIScrollView+APParallaxHeader.h */,
-				E04A30D938F6A60B69AA64C590DE0642 /* UIScrollView+APParallaxHeader.m */,
-				2A0F1B78DCAD93E15739067919C78CCA /* Support Files */,
+				F23452DE9F50068B8D79DE49FBBA165A /* EPContactsPicker.modulemap */,
+				75F6F96198020F39AF2EC274F62E3790 /* EPContactsPicker.xcconfig */,
+				0030D14A2A7CA00BB266CD5AE790668A /* EPContactsPicker-dummy.m */,
+				874246EA89B096247AC44CEC3A92F39B /* EPContactsPicker-prefix.pch */,
+				423B0B545FE07BD11E022D0659CC1C8F /* EPContactsPicker-umbrella.h */,
+				E0A409282E39F39C229973527044C6FC /* Info.plist */,
+				37FAFA139FFE7D3AC38C2395EFDE173B /* ResourceBundle-EPContactsPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EPContactsPicker";
+			sourceTree = "<group>";
+		};
+		C4587194D7D21CFE9503BA3849655712 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2DF3B35BB1E4DAFD0865E089EDAC027 /* APParallaxHeader */,
+				02957AC8EB4C98EB9A994E053BB58D7C /* EPContactsPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2DF3B35BB1E4DAFD0865E089EDAC027 /* APParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				11156C0CB8B068BEAF36F1BF3DAE7D13 /* UIScrollView+APParallaxHeader.h */,
+				ABEA2CB38B1EB33F3FEF77BF572CCDA2 /* UIScrollView+APParallaxHeader.m */,
+				938B228972889186BB61A452BD4F579E /* Support Files */,
 			);
 			name = APParallaxHeader;
 			path = APParallaxHeader;
@@ -174,11 +278,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		153D66B93211A1024D4F9925792FE109 /* Headers */ = {
+		231DC620EC230E7D2CA62604E9E76C1A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32CF8652B7AACF4F891FE8133C05EDA3 /* Pods-ValetFix Parallax Header-umbrella.h in Headers */,
+				89049EFC0398CC0F7AA30C5A3B9A0E13 /* Pods-ValetFix Parallax Header-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +292,14 @@
 			files = (
 				69D8578E3EFE98C060AFE0E34E14C9A0 /* APParallaxHeader-umbrella.h in Headers */,
 				04A5AC35140CBE819A87E83AC97286B9 /* UIScrollView+APParallaxHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7FD6A5C25CEAF31A7714ACE3F41D7DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A70728CDA14F12BD0EE825C88C768F6 /* EPContactsPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,25 +320,62 @@
 			);
 			name = APParallaxHeader;
 			productName = APParallaxHeader;
-			productReference = CCEBB4E668546469D7320729497A8CEE /* APParallaxHeader.framework */;
+			productReference = 800C6DE1D6DAE520E426418C91CF3866 /* APParallaxHeader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4F47FA41E90E6CF1B4B6DF124B0B9123 /* Pods-ValetFix Parallax Header */ = {
+		1ED7210FC5C9C6ADCEB3CDAD87B99D60 /* EPContactsPicker-EPContactsPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B131E63C16990267801E9070A614810 /* Build configuration list for PBXNativeTarget "Pods-ValetFix Parallax Header" */;
+			buildConfigurationList = 10DB5FE5B45CEADD7E12099097CE7C4E /* Build configuration list for PBXNativeTarget "EPContactsPicker-EPContactsPicker" */;
 			buildPhases = (
-				6C2C1EA9F8AC8390A2BB097F6CE72367 /* Sources */,
-				D17A5047F26E6D243A87B2FAC2B8B48D /* Frameworks */,
-				153D66B93211A1024D4F9925792FE109 /* Headers */,
+				A60D19AABA1A38FF496566FAA5FCE198 /* Sources */,
+				40AFABE5917A5AA39CD5932A31C0F10F /* Frameworks */,
+				E54E37375365CB2F49AFB33E7962550D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C2153E2B250436AC6A0131B2DB40E192 /* PBXTargetDependency */,
+			);
+			name = "EPContactsPicker-EPContactsPicker";
+			productName = "EPContactsPicker-EPContactsPicker";
+			productReference = 172286DD51A49E3645F12BADB1485B12 /* EPContactsPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9B49654B82B0313D988195D5587273EF /* EPContactsPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D084BC31A81FE787D3638893B508C99 /* Build configuration list for PBXNativeTarget "EPContactsPicker" */;
+			buildPhases = (
+				28FF9C2F0C3CAC830C7530E030532B56 /* Sources */,
+				54EC7CED97703F01AA05AD8313682ABE /* Frameworks */,
+				E6DBF879BF4A9F167B619C3C4104DE2B /* Resources */,
+				E7FD6A5C25CEAF31A7714ACE3F41D7DE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0390907927C93458AEF4EBF195CB902D /* PBXTargetDependency */,
+			);
+			name = EPContactsPicker;
+			productName = EPContactsPicker;
+			productReference = AAFDD5627FE2593BA770BA463375CBD5 /* EPContactsPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAABC759868DCE578A9958C51FBF9084 /* Pods-ValetFix Parallax Header */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA84A6C97CB85837A4512AFCA9111EB /* Build configuration list for PBXNativeTarget "Pods-ValetFix Parallax Header" */;
+			buildPhases = (
+				9AA16DB0C5D16ECD5F2A77EBC9708B6C /* Sources */,
+				6F0F8BABA6EA6ED2120B5D23208C3686 /* Frameworks */,
+				231DC620EC230E7D2CA62604E9E76C1A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00AC52875174D8629BD4EE90DD037361 /* PBXTargetDependency */,
+				B41A8E2CBFADA6434E49046C9FF55469 /* PBXTargetDependency */,
 			);
 			name = "Pods-ValetFix Parallax Header";
 			productName = "Pods-ValetFix Parallax Header";
-			productReference = C6E9EB9D72AA3C9C48C6859BB9E428EE /* Pods_ValetFix_Parallax_Header.framework */;
+			productReference = BED7D064640B1EAB04AF9082C388D73A /* Pods_ValetFix_Parallax_Header.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -246,22 +395,64 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A5C9DE3357E8F6407C2DFF30070969CA /* Products */;
+			productRefGroup = 00DE54D7040CF4F8EE15D8846E47D22C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0E119F43B0B3E72C2C7435D5B5725E1A /* APParallaxHeader */,
-				4F47FA41E90E6CF1B4B6DF124B0B9123 /* Pods-ValetFix Parallax Header */,
+				9B49654B82B0313D988195D5587273EF /* EPContactsPicker */,
+				1ED7210FC5C9C6ADCEB3CDAD87B99D60 /* EPContactsPicker-EPContactsPicker */,
+				BAABC759868DCE578A9958C51FBF9084 /* Pods-ValetFix Parallax Header */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		E54E37375365CB2F49AFB33E7962550D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D8B64F91CE775B601BE97D70F835C1 /* EPContactCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DBF879BF4A9F167B619C3C4104DE2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0098F163A0EC0741B022D2FC0D60FA /* EPContactCell.xib in Resources */,
+				6E01EB8AAAA87A93ECF203D4A761BD89 /* EPContactsPicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		6C2C1EA9F8AC8390A2BB097F6CE72367 /* Sources */ = {
+		28FF9C2F0C3CAC830C7530E030532B56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1526D3FD9D89880E754EFB05BAE12BF8 /* Pods-ValetFix Parallax Header-dummy.m in Sources */,
+				E8C1B354AC6AF241578B38DE8C5D15AC /* EPConstants.swift in Sources */,
+				7C1B5FD79400C7BCF716D05F0A3C84E3 /* EPContact.swift in Sources */,
+				993057D7167B5B2E6CADC3D686B072A2 /* EPContactCell.swift in Sources */,
+				32849C80D8C715FE96B7BA5F6DE37F43 /* EPContactsPicker-dummy.m in Sources */,
+				8CEFB1A260DE70914876CA6FE778C618 /* EPContactsPicker.swift in Sources */,
+				CD93D728FA3273BAC4D479EAD3B824D3 /* EPExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA16DB0C5D16ECD5F2A77EBC9708B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED6FA3DB2A2C615E34FEA3FB05B9BE2 /* Pods-ValetFix Parallax Header-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60D19AABA1A38FF496566FAA5FCE198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,15 +468,44 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C2153E2B250436AC6A0131B2DB40E192 /* PBXTargetDependency */ = {
+		00AC52875174D8629BD4EE90DD037361 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = APParallaxHeader;
 			target = 0E119F43B0B3E72C2C7435D5B5725E1A /* APParallaxHeader */;
-			targetProxy = 5A4396CA7643C692407AE81DF3614CDB /* PBXContainerItemProxy */;
+			targetProxy = 8C2C0F34FB78192A816F0151218B1723 /* PBXContainerItemProxy */;
+		};
+		0390907927C93458AEF4EBF195CB902D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EPContactsPicker-EPContactsPicker";
+			target = 1ED7210FC5C9C6ADCEB3CDAD87B99D60 /* EPContactsPicker-EPContactsPicker */;
+			targetProxy = 85844CE468F7F0EC1CBE5829BCECF0EA /* PBXContainerItemProxy */;
+		};
+		B41A8E2CBFADA6434E49046C9FF55469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EPContactsPicker;
+			target = 9B49654B82B0313D988195D5587273EF /* EPContactsPicker */;
+			targetProxy = 8EAC4759BD8E92648503FD98E45B6BF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		03671033C11E3FFA1E548BA14862C4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F6F96198020F39AF2EC274F62E3790 /* EPContactsPicker.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EPContactsPicker";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EPContactsPicker/ResourceBundle-EPContactsPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = EPContactsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -334,7 +554,7 @@
 			};
 			name = Debug;
 		};
-		6EB336A90BB3AA02D1C909C0E2DF8067 /* Release */ = {
+		19C8F1559E8D0ED6F95E0C308579A203 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D49F0F2FA154E019B54945CBE08D71E4 /* Pods-ValetFix Parallax Header.release.xcconfig */;
 			buildSettings = {
@@ -364,6 +584,8 @@
 				PRODUCT_NAME = Pods_ValetFix_Parallax_Header;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -372,7 +594,7 @@
 		};
 		6F6C83F807DBAF96267FA87974495E5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A990CFA3B27D15FFD09236CAC3FF6CA1 /* APParallaxHeader.xcconfig */;
+			baseConfigurationReference = D51186ED2855EF3CC2C8D0B24D006DB6 /* APParallaxHeader.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -449,7 +671,7 @@
 		};
 		7234DD9EDA943E458FF0DF35E0DAC6CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A990CFA3B27D15FFD09236CAC3FF6CA1 /* APParallaxHeader.xcconfig */;
+			baseConfigurationReference = D51186ED2855EF3CC2C8D0B24D006DB6 /* APParallaxHeader.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -480,7 +702,7 @@
 			};
 			name = Debug;
 		};
-		F265CEBF902744625F9BFB0A06EFF2A7 /* Debug */ = {
+		738ECCCB344A8995FE2EBF432830ECC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2473440F1D4EB8F23758B8E112A86853 /* Pods-ValetFix Parallax Header.debug.xcconfig */;
 			buildSettings = {
@@ -510,20 +732,109 @@
 				PRODUCT_NAME = Pods_ValetFix_Parallax_Header;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		7D75FC3EA401CBABFE45B7164C4F5A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F6F96198020F39AF2EC274F62E3790 /* EPContactsPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EPContactsPicker/EPContactsPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EPContactsPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EPContactsPicker/EPContactsPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EPContactsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A468DDF1F70DC507B6ABEBDA08F81ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F6F96198020F39AF2EC274F62E3790 /* EPContactsPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EPContactsPicker/EPContactsPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EPContactsPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EPContactsPicker/EPContactsPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EPContactsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2907179F177C37714FFFC4AA43983FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F6F96198020F39AF2EC274F62E3790 /* EPContactsPicker.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EPContactsPicker";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EPContactsPicker/ResourceBundle-EPContactsPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = EPContactsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B131E63C16990267801E9070A614810 /* Build configuration list for PBXNativeTarget "Pods-ValetFix Parallax Header" */ = {
+		10DB5FE5B45CEADD7E12099097CE7C4E /* Build configuration list for PBXNativeTarget "EPContactsPicker-EPContactsPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F265CEBF902744625F9BFB0A06EFF2A7 /* Debug */,
-				6EB336A90BB3AA02D1C909C0E2DF8067 /* Release */,
+				03671033C11E3FFA1E548BA14862C4FB /* Debug */,
+				E2907179F177C37714FFFC4AA43983FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -533,6 +844,24 @@
 			buildConfigurations = (
 				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
 				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D084BC31A81FE787D3638893B508C99 /* Build configuration list for PBXNativeTarget "EPContactsPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A468DDF1F70DC507B6ABEBDA08F81ED8 /* Debug */,
+				7D75FC3EA401CBABFE45B7164C4F5A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA84A6C97CB85837A4512AFCA9111EB /* Build configuration list for PBXNativeTarget "Pods-ValetFix Parallax Header" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738ECCCB344A8995FE2EBF432830ECC7 /* Debug */,
+				19C8F1559E8D0ED6F95E0C308579A203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
